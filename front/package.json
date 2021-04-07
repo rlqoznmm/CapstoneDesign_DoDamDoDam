@@ -25,16 +25,26 @@
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.1",
     "prettier": "2.2.1",
+<<<<<<< HEAD
     "react-router-dom": "^5.2.0",
+=======
+    "url-loader": "^4.1.1",
+>>>>>>> 1bca63bbc4c725f7a5ed687aaca4e7bc1aaefb2f
     "webpack": "^5.30.0",
     "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+<<<<<<< HEAD
     "path-browserify": "^1.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
+=======
+    "core-js": "^3.10.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+>>>>>>> 1bca63bbc4c725f7a5ed687aaca4e7bc1aaefb2f
     "styled-components": "^5.2.3"
   }
 }

@@ -32,6 +32,20 @@ module.exports = {
           loader: 'babel-loader',
         },
       },
+<<<<<<< HEAD
+=======
+      {
+        test: /\.(png|jpg|gif)$/i,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192,
+            },
+          },
+        ],
+      },
+>>>>>>> 1bca63bbc4c725f7a5ed687aaca4e7bc1aaefb2f
       {
         test: /\.(png|jpe?g|gif)$/i,
         use: [
