@@ -1,13 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from '@/images/logo.png';
 import { Link } from 'react-router-dom';
 import { BiBell}  from "react-icons/bi";
 
 const Header=()=>{
     return (
        <Component>
-           <Logo src={logo}/>
+           <Logo src="https://i.ibb.co/LkJhyKK/image.png"/>
            <ClassButton type='button'>
              <Link to='/classManagement'>학급관리</Link>
            </ClassButton>

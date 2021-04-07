@@ -1,20 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 import Header from '@/components/Header';
 
-const PageLayout=()=>{
+const PageLayout=({children})=>{
     return (
         <Container>
-            <Header>
-                <Main>Page</Main>
-            </Header>
+            <Header />
+            <Main>{children}</Main>
         </Container>
     );
 };
 
-// MainPageLayout.propTypes = {
-//     children: PropTypes.oneOfType([PropTypes.element, PropTypes.array]).isRequired,
-//   };
+PageLayout.propTypes = {
+    children: PropTypes.oneOfType([PropTypes.element, PropTypes.array]).isRequired,
+  };
   
   const Container = styled.div`
     width: 100%;

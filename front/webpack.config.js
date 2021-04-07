@@ -32,8 +32,6 @@ module.exports = {
           loader: 'babel-loader',
         },
       },
-<<<<<<< HEAD
-=======
       {
         test: /\.(png|jpg|gif)$/i,
         use: [
@@ -45,7 +43,6 @@ module.exports = {
           },
         ],
       },
->>>>>>> 1bca63bbc4c725f7a5ed687aaca4e7bc1aaefb2f
       {
         test: /\.(png|jpe?g|gif)$/i,
         use: [
