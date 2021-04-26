@@ -1,9 +1,9 @@
 import React from 'react';
-import PageLayout from '@/layouts/PageLayout';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { GlobalStyle,theme } from '@/layouts/GlobalStyle';
 import { ThemeProvider } from 'styled-components';
 import ClassManagement from '@/pages/ClassManagement/ClassManagement';
+import StudentManagement from '@/pages/StudentManagement/StudentManagement';
 
 const App = () => (
   <ThemeProvider theme={theme}>
@@ -11,7 +11,7 @@ const App = () => (
     <BrowserRouter>
       <Switch>
         <Route exact path='/' component={ClassManagement} />
-        <Route path='/studentManagement' component={ClassManagement} />
+        <Route path='/studentManagement' component={StudentManagement} />
         <Route path='/studentEnrollment' component={ClassManagement} />
         <Route path='/classManagement' component={ClassManagement} />
       </Switch>

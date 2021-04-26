@@ -32,11 +32,13 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "core-js": "^3.10.0",
     "path-browserify": "^1.0.1",
+    "performance-now": "^0.2.0",
     "react": "^17.0.2",
+    "react-charts": "^2.0.0-beta.7",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
-    "core-js": "^3.10.0",
     "styled-components": "^5.2.3"
   }
 }
