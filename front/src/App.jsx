@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { GlobalStyle,theme } from '@/layouts/GlobalStyle';
 import { ThemeProvider } from 'styled-components';
 import ClassManagement from '@/pages/ClassManagement/ClassManagement';
+import StudentInfo from '@/pages/StudentInfo/StudentInfo';
 
 const App = () => (
   <ThemeProvider theme={theme}>
@@ -12,7 +13,7 @@ const App = () => (
       <Switch>
         <Route exact path='/' component={ClassManagement} />
         <Route path='/studentManagement' component={ClassManagement} />
-        <Route path='/studentEnrollment' component={ClassManagement} />
+        <Route path='/studentEnrollment' component={StudentInfo} />
         <Route path='/classManagement' component={ClassManagement} />
       </Switch>
     </BrowserRouter>
